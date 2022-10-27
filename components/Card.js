@@ -1,5 +1,5 @@
 import Link from "next/link"
-import ATC from "../public/SVG_components/ExtraIcons/Atc"
+import ATC from "../public/SVG_components/ExtraIcons/ATC"
 import styles from "../styles/Card.module.css"
 
 const Card = (props) => {
