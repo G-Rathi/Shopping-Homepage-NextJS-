@@ -1,0 +1,51 @@
+.navContainer{
+    position: sticky;
+    top:0;
+    color: #E5DFD9;
+    display: flex;
+    background-color: rgb(12,12,12);
+    Width: 1280px;
+    Height: 105px;
+    padding: 20px 35px 15px 35px;
+    z-index: 3;
+    /* border: 2px solid white; */
+}
+.logoText{
+    flex: 1;
+    width:197px;
+    height:28px;
+    font-family:Comme;
+    font-weight:400;
+    font-size:22px;
+    line-height:28px;
+    letter-spacing: 15px;
+    padding: 0px 20px;
+}
+.navItems{
+    flex: 2;
+    text-align: center;
+    align-self: flex-end;
+    display:flex;
+    justify-content: space-evenly;
+    font-family: encode-sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+.navIcons{
+    /* flex: 1; */
+    text-align: end;
+    display:flex;
+    justify-content: space-between;
+    flex-basis: 300px;
+    padding-left: 150px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.a:hover{
+    color: green;
+}
+
+

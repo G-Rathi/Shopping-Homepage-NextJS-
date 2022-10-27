@@ -1,0 +1,67 @@
+html,
+body {
+  background: rgb(0,0,0);
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container{
+  position: relative;
+  width: 1280px;
+  height:100%;
+  margin:auto;
+  background-color:rgb(12,12,12);
+  padding: 0px 35px 250px 35px;
+}
+
+.mainSectionText{
+  color: #E5DFD9;
+  display:flex;
+  justify-content: space-between;
+  font-family: encode-sans;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 10px 0px 40px 0px;
+}
+
+.productText{
+  display: flex;
+}
+
+.dot{
+  font-size: 5px;
+  margin: 0px 8px;
+}
+
+.numberOfProducts{
+  width:115px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.upArrow{
+  color: #E5DFD9;
+  background-color: #E5DFD9;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}

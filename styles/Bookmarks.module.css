@@ -1,0 +1,18 @@
+.container{
+    color: #E5DFD9;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.button:hover{
+    transform:scale(1.1)
+}
