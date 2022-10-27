@@ -31,7 +31,7 @@ const Home = ({ productList, metaData }) => {
             <Link href='#'><a><AllProducts /></a></Link>
           </span>
         </div>
-        <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', flexWrap: 'wrap', }}>
+        <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%', flexFlow: 'wrap' }}>
           {
             productList.map((product, index) => {
               return <Card product={product} key={index} />

@@ -2,14 +2,11 @@
     color: #E5DFD9;
     width: 283px;
     height: 500px;
-    /* border: 2px solid white; */
     border-radius: 8px 8px 17px 17px;
     display:flex;
     flex-direction: column;
-    /* border-bottom-left-radius: 17px;
-    border-bottom-right-radius: 17px; */
     position: relative;
-    margin-bottom: 50px;
+    margin:0px 0px 50px 0px;
 }
 
 .bookmark{
