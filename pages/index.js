@@ -18,6 +18,7 @@ export const getStaticProps = async () => {
 
 const Home = ({ productList, metaData }) => {
 
+
   return (
     <div className='container'>
       <Slider />

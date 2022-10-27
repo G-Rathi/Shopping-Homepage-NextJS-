@@ -11,7 +11,7 @@ const Slider = () => {
             {
                 SliderIconData.map((item) => {
                     return (
-                        <div className={styles.iconContainer}>
+                        <div className={styles.iconContainer} key={item.id}>
                             <div className={styles.icon} >{item.icon}</div>
                             <div><a className={styles.iconName} href='#tools'>{item.iconName}</a></div>
                         </div>
