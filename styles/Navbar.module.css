@@ -21,6 +21,7 @@
     letter-spacing: 15px;
     padding: 0px 20px;
 }
+
 .navItems{
     flex: 2;
     text-align: center;
@@ -32,20 +33,25 @@
     font-size: 16px;
     line-height: 18px;
 }
+
 .navIcons{
     /* flex: 1; */
     text-align: end;
     display:flex;
     justify-content: space-between;
     flex-basis: 300px;
+    align-self: flex-start;
     padding-left: 150px;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
 }
 
+.a{
+    transition: all 0.5s ease;
+}
+
 .a:hover{
     color: green;
 }
-
 
