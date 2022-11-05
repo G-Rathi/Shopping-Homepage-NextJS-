@@ -18,7 +18,6 @@ export const getStaticProps = async () => {
 
 const Home = ({ productList, metaData }) => {
 
-
   return (
     <div className='container'>
       <Slider />
@@ -31,7 +30,7 @@ const Home = ({ productList, metaData }) => {
             <Link href='#'><a><AllProducts /></a></Link>
           </span>
         </div>
-        <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%', flexFlow: 'wrap' }}>
+        <div className='cards_container'>
           {
             productList.map((product, index) => {
               return <Card product={product} key={index} />

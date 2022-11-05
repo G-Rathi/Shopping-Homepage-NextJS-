@@ -8,18 +8,19 @@
     Height: 105px;
     padding: 20px 35px 15px 35px;
     z-index: 3;
-    /* border: 2px solid white; */
 }
+
 .logoText{
     flex: 1;
     width:197px;
     height:28px;
-    font-family:Comme;
+    font-family: Comme;
+    font-size: 20px;
     font-weight:400;
-    font-size:22px;
     line-height:28px;
-    letter-spacing: 15px;
+    letter-spacing: 0.55em;
     padding: 0px 20px;
+    color: #E5DFD9;
 }
 
 .navItems{

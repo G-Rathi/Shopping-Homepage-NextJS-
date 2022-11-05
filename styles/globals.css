@@ -1,10 +1,17 @@
+@font-face {
+  font-family: Comme;
+  src: url('../font/Comme.ttf');
+}
+@font-face {
+  font-family: encode-sans;
+  src: url('../font/Encode-Sans.ttf');
+}
+
 html,
 body {
   background: rgb(0,0,0);
   padding: 0;
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 * {
@@ -29,7 +36,6 @@ a {
   color: #E5DFD9;
   display:flex;
   justify-content: space-between;
-  font-family: encode-sans;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
@@ -37,7 +43,13 @@ a {
 }
 
 .productText{
+  font-family: encode-sans;
   display: flex;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #E5DFD9;
 }
 
 .dot{
@@ -46,9 +58,16 @@ a {
 }
 
 .numberOfProducts{
-  width:115px;
+  font-family: encode-sans;
+  width: 135px;
   display:flex;
   justify-content: space-between;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #E5DFD9;
 }
 
 .upArrow{
@@ -56,12 +75,9 @@ a {
   background-color: #E5DFD9;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.cards_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px 25px; 
 }
+
